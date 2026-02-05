@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetroPrime Fuels | Apply Now</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="container top-bar-content">
+      <span>24x7 Fuel &amp; Service Support</span>
+      <span>Call: <a href="tel:+911234567890">+91 12345 67890</a> | Email: <a href="mailto:info@petroprimefuels.com">info@petroprimefuels.com</a></span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <span class="logo-mark">PP</span>
+        <span class="logo-text">PetroPrime Fuels</span>
+      </div>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>Apply for Petrol Pump Dealership Support</h1>
+      <p>Share your details and we will connect with you for the next steps.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <form id="applyForm" class="apply-form" novalidate>
+        <div class="form-row">
+          <label for="fullName">Full Name <span>*</span></label>
+          <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" />
+          <small class="error-message" data-error-for="fullName"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">Phone Number <span>*</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter 10-digit phone number" maxlength="10" />
+          <small class="error-message" data-error-for="phone"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email Address <span>*</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" />
+          <small class="error-message" data-error-for="email"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="state">State <span>*</span></label>
+          <select id="state" name="state">
+            <option value="">Select State</option>
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+            <option value="Assam">Assam</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Chhattisgarh">Chhattisgarh</option>
+            <option value="Goa">Goa</option>
+            <option value="Gujarat">Gujarat</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Himachal Pradesh">Himachal Pradesh</option>
+            <option value="Jharkhand">Jharkhand</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Madhya Pradesh">Madhya Pradesh</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Manipur">Manipur</option>
+            <option value="Meghalaya">Meghalaya</option>
+            <option value="Mizoram">Mizoram</option>
+            <option value="Nagaland">Nagaland</option>
+            <option value="Odisha">Odisha</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Sikkim">Sikkim</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+            <option value="Telangana">Telangana</option>
+            <option value="Tripura">Tripura</option>
+            <option value="Uttar Pradesh">Uttar Pradesh</option>
+            <option value="Uttarakhand">Uttarakhand</option>
+            <option value="West Bengal">West Bengal</option>
+            <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+            <option value="Ladakh">Ladakh</option>
+            <option value="Lakshadweep">Lakshadweep</option>
+            <option value="Puducherry">Puducherry</option>
+          </select>
+          <small class="error-message" data-error-for="state"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="city">City <span>*</span></label>
+          <input type="text" id="city" name="city" placeholder="Enter your city" />
+          <small class="error-message" data-error-for="city"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="pincode">Pincode <span>*</span></label>
+          <input type="number" id="pincode" name="pincode" placeholder="Enter 6-digit pincode" maxlength="6" />
+          <small class="error-message" data-error-for="pincode"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="company">Select Company <span>*</span></label>
+          <select id="company" name="company">
+            <option value="">Select Company</option>
+            <option value="Indian Oil (IOCL)">Indian Oil (IOCL)</option>
+            <option value="Bharat Petroleum (BPCL)">Bharat Petroleum (BPCL)</option>
+            <option value="Hindustan Petroleum (HPCL)">Hindustan Petroleum (HPCL)</option>
+            <option value="Reliance Petroleum">Reliance Petroleum</option>
+            <option value="Nayara Energy">Nayara Energy</option>
+            <option value="Shell India">Shell India</option>
+          </select>
+          <small class="error-message" data-error-for="company"></small>
+        </div>
+
+        <div class="form-row">
+          <label for="investmentRange">Investment Range <span>*</span></label>
+          <select id="investmentRange" name="investmentRange">
+            <option value="">Select Investment Range</option>
+            <option value="25–50 Lakh">25–50 Lakh</option>
+            <option value="50–75 Lakh">50–75 Lakh</option>
+            <option value="75 Lakh – 1 Crore">75 Lakh – 1 Crore</option>
+            <option value="Above 1 Crore">Above 1 Crore</option>
+          </select>
+          <small class="error-message" data-error-for="investmentRange"></small>
+        </div>
+
+        <div class="form-row">
+          <button type="submit" class="btn primary-btn">Submit</button>
+        </div>
+
+        <p class="form-note">
+          Fields marked with <span>*</span> are required. We will contact you within 1–2 business days.
+        </p>
+
+        <p class="form-success" id="formSuccessMessage" hidden>
+          Thank you for applying. We have received your details and will contact you soon.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>PetroPrime Fuels</h3>
+        <p>Professional consultants for petrol pump dealerships, infrastructure, and operations.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Address: 123 Fuel Avenue, Business District, New Delhi, India</p>
+        <p>Phone: <a href="tel:+911234567890">+91 12345 67890</a></p>
+        <p>Email: <a href="mailto:info@petroprimefuels.com">info@petroprimefuels.com</a></p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">Fb</a>
+          <a href="#" aria-label="LinkedIn">In</a>
+          <a href="#" aria-label="Twitter">Tw</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> PetroPrime Fuels. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
